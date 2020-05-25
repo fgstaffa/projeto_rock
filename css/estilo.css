@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+*{
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+#fundo{
+    background-image: url(../imagens/fundo_piano.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+header{
+    display: flex;
+    height: 100px;
+    box-shadow: 2px 12px 20px black;
+    background-color: #bdb9b6;
+}
+
+header div{
+    width: 214px;
+    position: relative;
+    left: 600px;
+    top: 25px;
+}
+
+header div h1{
+    font-size: 42pt;
+}
+
+header nav a{
+    font-size: 22pt;
+    color: black;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 80px;
+    position: relative;
+    left: 860px;
+    top: 25px;
+}
+
+header nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#corpo{
+    height: 820px;
+    margin-bottom: -20px;
+    box-shadow: 2px 16px 20px black;
+}
+
+footer{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    height: 40px;
+    background-color: #878883;
+    text-align: center;
+    box-shadow: 2px -16px 20px black;
+}
+
+footer p{
+    margin: 0;
+    padding-top: 10px;
+}
