@@ -4,18 +4,18 @@
     font-family: 'Covered By Your Grace', cursive;
 }
 
-#fundo{
-    background-image: url(../imagens/fundo_piano.jpg);
+#fundo-banda{
+    background-image: url(../imagens/guitar_azul.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    
+    position: relative;
 }
 
 header{
     display: flex;
     height: 100px;
     box-shadow: 2px 12px 20px black;
-    background-color: #bdb9b6;
+    background-color: #5d95b6;
 }
 
 header div{
@@ -55,7 +55,7 @@ footer{
     margin-bottom: 0px;
     margin-top: 20px;
     height: 40px;
-    background-color: #878883;
+    background-color: #5d95b6;
     text-align: center;
     box-shadow: 2px -16px 20px black;
 }
