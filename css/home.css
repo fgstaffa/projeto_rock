@@ -13,6 +13,8 @@
 
 header{
     display: flex;
+    position: fixed;
+    width: 1354px;
     height: 100px;
     box-shadow: 2px 12px 20px black;
     background-color: #bbb7b5;
@@ -46,19 +48,54 @@ header nav a:hover{
 }
 
 #corpo{
-    height: 820px;
+    height: 840px;
     margin-bottom: -20px;
+    padding-top: 100px;
     box-shadow: 2px 16px 20px black;
 }
 
+#transparencia{
+    height: 740px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: rgba(203,209,203, 80%);
+}
+
+#historia{
+    padding: 60px;
+}
+
+#historia a{
+    text-decoration: none;
+    color: black;
+}
+
+.amostra-home{
+    width: 260px;
+    height: 200px;
+    border: 3px dotted black;
+    border-radius: 4px;
+}
+
+.amostra-home img{
+    width: 250px;
+    height: 190px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    border-radius: 4px;
+}
+
 #muda-fundo{
-    width: 520px;
-    height: 320px;
+    width: 1110px;
+    height: 330px;
     position: absolute;
     top: 120px;
     background-color: #bdb8b5;
     transition: 1s;
     opacity: 0.6;
+    text-align: center;
+    padding-top: 80px;
 }
 
 footer{
